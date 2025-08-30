@@ -67,26 +67,51 @@ Responsible for communication between apps across networks.
 👉 Examples:
 
 Protocols: HTTP/HTTPS, FTP, SMTP, POP3, DNS, DHCP.
+
 Applications: Web browsers, email clients, cloud apps.
+
 📌 Example: Sending an Email (SMTP) via OSI Model
+
 Application Layer → User writes an email (SMTP used).
+
 Presentation Layer → Email text encoded, attachments compressed.
+
 Session Layer → Session established between sender & email server.
+
 Transport Layer → TCP ensures reliable delivery.
+
 Network Layer → IP address of mail server resolved via DNS.
+
 Data Link Layer → Ethernet/Wi-Fi ensures frame delivery.
-Physical Layer → Bits transmitted as electrical signals/waves.
+
+Physical Layer → Bits transmitted as electrical signals/waves
+.
 📌 Example: Opening a Website (HTTP over HTTPS)
+
 Application → Browser sends an HTTP/HTTPS request.
+
 Presentation → Data encrypted using SSL/TLS.
+
 Session → Secure session maintained between browser & server.
+
 Transport → TCP ensures reliable connection.
+
 Network → IP routing finds the path to the server.
+
 Data Link → MAC address ensures hop-to-hop delivery.
+
 Physical → Data transmitted as signals over cable/Wi-Fi.
+
 📌 OSI Model vs TCP/IP Model
-Feature	OSI Model (7 Layers)	TCP/IP Model (4 Layers)
-Layers	7 (Physical → Application)	4 (Link, Internet, Transport, Application)
+
+Feature	OSI Model (7 Layers)
+
+TCP/IP Model (4 Layers)
+
+Layers	7 (Physical → Application)	
+4 (Link, Internet, Transport, Application)
+
 Example Usage	Theoretical model	Practical implementation (used in real networks)
+
 Protocols	ARP, IP, TCP, HTTP, etc.	TCP, IP, HTTP, FTP, etc.
 
